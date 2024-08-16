@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <div class="file_uploader_box">
+        <h2>File Uploader React</h2>
+        <form action="#">
+          <input type="file" id="fileInput" hidden multiple />
+          <div class="drop-zone" id="drop-zone">
+            <img src="./assets//pngegg (3).png" alt="" />
+            <h6>Browse file to upload</h6>
+          </div>
+        </form>
+      </div>
+      <div id="file_info"></div>
+    </main>
+    <div id="video-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <video controls class="video-player"></video>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
