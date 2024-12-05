@@ -9,6 +9,12 @@ const videoPlayer = document.querySelector(".video-player");
 dropZone.addEventListener("click", () => {
   fileInput.click();
 });
+dropZone.addEventListener("click", () => {
+  fileInput.click();
+});
+dropZone.addEventListener("click", () => {
+  fileInput.click();
+});
 
 dropZone.addEventListener("dragover", (e) => {
   e.preventDefault();
